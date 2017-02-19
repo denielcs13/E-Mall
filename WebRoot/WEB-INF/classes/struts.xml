@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts> 
+  <constant name="struts.i18n.encoding" value="UTF-8"></constant>
+  <constant name="struts.multipart.saveDir" value="e:\picture\"></constant>
+	<package name="default"  extends="struts-default" namespace="/">
+		
+		<action name="loginAction" class="cn.com.action.UserAction" method="loginAction">
+		<result name="success">/index.jsp</result>
+		<result name="input">/login.jsp</result>
+		</action>
+		
+		<action name="exitAction" class="cn.com.action.UserAction" method="exitAction">
+		<result name="success">/index.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="registerAction" class="cn.com.action.UserAction" method="registerAction">
+		<result name="success">/index.jsp</result>
+		<result name="input">/regist.jsp</result>
+		</action>
+		
+		<action name="typeAction" class="cn.com.action.TypeAction" method="typeAction">
+		<result name="success">/index2.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="searchGoodsByTypeAction" class="cn.com.action.GoodsAction" method="searchGoodsByTypeAction">
+		<result name="success">/catalog_grid.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="searchGoodsByIdAction" class="cn.com.action.GoodsAction" method="searchGoodsByIdAction">
+		<result name="success">/product_page.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="searchGoodsByNameAction" class="cn.com.action.GoodsAction" method="searchGoodsByNameAction">
+		<result name="success">/product_search.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="showWishlistAction" class="cn.com.action.WishlistAction" method="showWishlistAction">
+		<result name="success">/wishlist.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="showCartListAction" class="cn.com.action.OrderAction" method="showCartListAction">
+		<result name="success">/shopping_cart.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="confirmOrderAction" class="cn.com.action.OrderAction" method="confirmOrderAction">
+		<result name="success">/confirm_order.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="submitOrdersAction" class="cn.com.action.OrderAction" method="submitOrdersAction">
+		<result name="success">/checkout.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		
+		
+		<action name="accountAction" class="cn.com.action.AccountAction" method="accountAction">
+		<result name="success">/checkout.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="checkoutAction" class="cn.com.action.AccountAction" method="checkoutAction">
+		<result name="success">/checkout_success.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="checkoutAction_" class="cn.com.action.AccountAction" method="checkoutAction_">
+		<result name="success">/checkout_success.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="showOrdersListAction" class="cn.com.action.OrderAction" method="showOrdersListAction">
+		<result name="success">/order_list.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="updatePasswordAction" class="cn.com.action.UserAction" method="updatePasswordAction">
+		<result name="success">/user_info.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="showSellorGoodsAction" class="cn.com.action.SellorAction" method="showSellorGoodsAction">
+		<result name="success">/sellor/sellor_goods.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="searchSellorGoodsByIdAction" class="cn.com.action.SellorAction" method="searchSellorGoodsByIdAction">
+		<result name="success">/sellor/sellor_goods.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="searchSellorGoodsByNameAction" class="cn.com.action.SellorAction" method="searchSellorGoodsByNameAction">
+		<result name="success">/sellor/sellor_goods.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		
+		
+		<action name="showSellorOrderAction" class="cn.com.action.SellorAction" method="showSellorOrderAction">
+		<result name="success">/sellor/sellor_order.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="searchSellorOrderByIdAction" class="cn.com.action.SellorAction" method="searchSellorOrderByIdAction">
+		<result name="success">/sellor/sellor_order.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="searchSellorOrderByUserAction" class="cn.com.action.SellorAction" method="searchSellorOrderByUserAction">
+		<result name="success">/sellor/sellor_order.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+
+        <action name="commentAction" class="cn.com.action.CommentAction" method="commentAction">
+		<result name="success">/comment.jsp</result>
+		<result name="input">/error.jsp</result>
+		</action>
+     
+        <action name="addCommentAction" class="cn.com.action.CommentAction" method="addCommentAction">
+		   <result name="success">/user_center.jsp</result>
+		   <result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="addGoodsAction" class="cn.com.action.GoodsAction" method="addGoodsAction">
+			<result name="success">/sellor/add_goods.jsp</result>
+		   <result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="toBeSellorAction" class="cn.com.action.UserAction" method="toBeSellorAction">
+		   <result name="success">/sellor/index_2.jsp</result>
+		   <result name="input">/error.jsp</result>
+		</action>
+		
+		<action name="addToCompareAction" class="cn.com.action.GoodsAction" method="addToCompareAction">
+			 <result name="success">/compare_goods.jsp</result>
+		   <result name="input">/error.jsp</result>
+		</action>
+		
+	</package>
+
+	 <package name="ajaxManage" extends="json-default" namespace="/">
+        <action name="addToCartAction" class="cn.com.action.OrderAction" method="addToCartAction">  
+            <result type="json">
+                <param name="root">tipMessage</param>
+            </result>  
+        </action>    
+        
+        <action name="addToWishlistAction" class="cn.com.action.WishlistAction" method="addToWishlistAction">
+			<result type="json">  
+	             <param name="root">tipMessage</param>  
+	        </result>
+		</action>
+		
+		
+		
+		<action name="sendGoodsAction" class="cn.com.action.SellorAction" method="sendGoodsAction">
+		    <result type="json">  
+	             <param name="root">tipMessage</param>  
+	        </result>
+		</action>
+		
+		<action name="receiptGoodsAction" class="cn.com.action.OrderAction" method="receiptGoodsAction">
+		    <result type="json">
+	             <param name="root">tipMessage</param>  
+	        </result>
+		</action>
+
+
+
+		<action name="uploadAction" class="cn.com.action.GoodsAction" method="uploadAction" >
+             <result type="json">  
+	             <param name="root">tipMessage</param>  
+	        </result>
+             <!-- 定义文件上传拦截器 -->
+             <interceptor-ref name="fileUpload">
+                 <!-- 设置文件上传大小 -->
+                 <param name="maximumSize">409600</param>
+                 <!-- 设置文件上传类型 
+                 <param name="allowedTypes">
+                     application/vnd.ms-powerpoint
+                 </param>
+                 -->
+             </interceptor-ref>
+             <!-- 自定义了拦截器后必手动定义默认的拦截器，否则默认的拦截器不会被执行 -->
+            <interceptor-ref name="defaultStack"></interceptor-ref>
+         </action>
+		
+		
+    </package>
+    
+    
+    
+</struts>

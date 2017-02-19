@@ -1,0 +1,428 @@
+/*Document CSS*/
+body
+{
+	text-align:center;
+	font-size:12px;
+	color:#666666;
+}
+a
+{
+	font-size:12px;
+	color:#00000;
+}
+a:hover
+{
+	color:#FF0000;
+}
+img
+{
+	border:none;
+}
+/*----------------------------------------divshopcar-*/
+#divshopcar
+{
+	position:relative;
+	width:970px;
+	height:auto;
+	float:center;
+	z-index:0;
+}
+/*---------------------------------------------divtop-*/
+#divtop
+{
+	position:relative;
+	width:970px;
+	height:138px;
+	background-image:url(../image/shopinfo/topic.jpg);
+	text-align:center;
+	z-index:0;
+}
+
+#divtop_topic
+{
+	position:relative;
+	width:auto;
+	height:30px;
+	top:108px;
+	z-index:1;
+}
+#divtop_topic a
+{
+	color:#000000;
+	font-size:14px;
+	text-decoration:none;
+}
+#divtop_topic a:hover
+{
+	color:#CCCCCC;
+	font-weight:bold;
+}
+/*---------------------------------------------divtop_select-*/
+#divtop_select{
+	position:relative;
+	background-image:url("../image/shopcar/divtop_select.jpg");
+	width:970px;
+	height:70px;
+}
+#divtop_select_0
+{
+	width:200px;
+	height:10px;
+}
+#divtop_select_1
+{
+	width:200px;
+	height:10px;
+	display:none;
+}
+#divtop_select_2
+{
+	width:200px;
+	height:10px;
+	display:none;
+}
+#divtop_select_3
+{
+	width:200px;
+	height:10px;
+	display:none;
+}
+#divtop_select_4
+{
+	width:200px;
+	height:10px;
+	display:none;
+}
+#divtop_select_5
+{
+	width:200px;
+	height:10px;
+	display:none;
+}
+/*---------------------------------------------divbanner-*/
+#divbanner
+{
+	position:relative;
+	width:970px;
+	height:30px;
+	margin-top:10px;
+	z-index:1;
+}
+#divbanner a
+{
+	color:#666666;
+	text-decoration:none;
+	font-size:14px;
+	font-weight:bold;
+}
+#divbanner font
+{
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+}
+/*---------------------------------------------divorder-*/
+#divorder
+{
+	position:relative;
+	width:970px;
+	height:auto;
+	float:center;
+	z-index:0;
+}
+/*---------------------------------------------div1-*/
+#div1
+{
+	position:relative;
+	width:970px;
+	height:153px;
+	margin-top:20px;
+	text-align:left;
+	background-image:url("../image/sureOrder/div1.jpg");
+	z-index:1;
+}
+#font1
+{
+	font-size:16px;
+	font-weight:bold;
+}
+#font2
+{
+	font-size:16px;
+	font-weight:bold;
+	color:#000000;
+}
+#font3
+{
+	font-size:12px;
+}
+/*---------------------------------------------div2-*/
+#div2
+{
+	position:relative;
+	width:970px;
+	height:30px;
+	margin-top:10px;
+	text-align:left;
+	z-index:1;
+}
+#div2 font
+{
+	font-size:16px;
+	color:#666666;
+	font-weight:bold;
+}
+
+/*---------------------------------------------div4-*/
+#div4
+{
+	position:relative;
+	width:970px;
+	height:150px;
+	z-index:1;
+}
+#div4 font
+{
+	font-size:12px;
+}
+#div4_01
+{
+	position:relative;
+	width:90px;
+	height:26px;
+	margin-top:10px;
+	float:left;
+	z-index:2;
+}
+#div4_save
+{
+	position:relative;
+	width:76px;
+	height:26px;
+	margin-top:70px;
+	z-index:2;
+}
+/*---------------------------------------------div5-*/
+#div5
+{
+	position:relative;
+	width:970px;
+	height:100px;
+	background-image:url(../image/order/div5.jpg);
+	z-index:1;
+}
+/*-----------------------------------------------divbodytop-*/
+#divbodytop
+{
+	position:relative;
+	width:970px;
+	height:20px;
+	float:left;
+	margin-top:10px;
+	border-bottom:2px solid #BEA97C;
+	z-index:1;
+}
+#divbodytop font
+{
+	color:#666666;
+	font-size:13px;
+}
+#divbodytop a
+{
+	color:#666666;
+	font-size:13px;
+	text-decoration:none;
+}
+/*----------------------------------------------divbodymiddle-*/
+#divbodymiddle
+{
+	position:relative;
+	width:970px;
+	height:20px;
+	margin-top:10px;
+	text-align:left;
+	float:left;
+	z-index:1;
+}
+#divbodymiddle a
+{
+	color:#0033CC;
+	font-size:13px;
+}
+#divbodymiddle a:hover
+{
+	color:#FF9900;
+}
+#divbodymiddle font
+{
+	font-size:13px;
+	color:#666666;
+}
+/*----------------------------------------------divbodybottom-*/
+#divbodybottom
+{
+	position:relative;
+	width:970px;
+	height:50px;
+	float:left;
+	z-index:1;
+}
+/*----------------------------------------------divbodybottom01-*/
+#divbodybottom01
+{
+	width:45px;
+	height:50px;
+	background-color:#EEE9DF;
+	border-top:1px solid #DED4BB;
+	border-bottom:1px solid #DED4BB;
+}
+#divbodybottom01 a
+{
+	color:#0033CC;
+	font-size:13px;
+}
+#divbodybottom01 a:hover
+{
+	color:#FF9900;
+}
+/*----------------------------------------------divbodybottom02-*/
+#divbodybottom02
+{
+	width:438px;
+	height:50px;
+	background-color:#EEE9DF;
+	border-top:1px solid #DED4BB;
+	border-bottom:1px solid #DED4BB;
+}
+#divbodybottom02 a
+{
+	color:#0033CC;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
+#divbodybottom02 a:hover
+{
+	color:#FF9900;
+}
+/*----------------------------------------------divbodybottom03-*/
+#divbodybottom03
+{
+	width:140px;
+	height:50px;
+	background-color:#EEE9DF;
+	border-top:1px solid #DED4BB;
+	border-bottom:1px solid #DED4BB;
+}
+#divbodybottom03 font
+{
+	color:#666666;
+	font-size:14px;
+}
+/*----------------------------------------------divbodybottom04-*/
+#divbodybottom04
+{
+	width:100px;
+	height:50px;
+	background-color:#EEE9DF;
+	border-top:1px solid #DED4BB;
+	border-bottom:1px solid #DED4BB;
+
+}
+#divbodybottom04 font
+{
+	color:#666666;
+	font-size:13px;
+}
+#divbodybottom04 input
+{
+	border:1px solid #CCCCCC;
+	height:15px;
+	background-color: white;
+}	
+/*----------------------------------------------divbodybottom05-*/
+#divbodybottom05
+{
+	width:140px;
+	height:50px;
+	background-color:#EEE9DF;
+	border-top:1px solid #DED4BB;
+	border-bottom:1px solid #DED4BB;
+}
+#divbodybottom05 font
+{
+	color:#CC0000;
+	font-size:14px;
+	font-weight:bold;
+}
+/*----------------------------------------------divbodybottom06-*/
+#divbodybottom06
+{
+	width:100px;
+	height:50px;
+	background-color:#EEE9DF;
+	border-top:1px solid #DED4BB;
+	border-bottom:1px solid #DED4BB;
+}
+/*-------------------------------------------------divmiddle_01-*/
+#divmiddle01
+{
+	text-align:right;
+	position:relative;
+	width:970px;
+	height:40px;
+	border-bottom:2px solid #CCCCCC;
+	float:left;
+}
+#divmiddle01 a
+{
+	font-size:14px;
+	color:#666666;
+	text-decoration:none;
+	border:1px solid #CCCCCC;
+}
+#divmiddle01 a:hover
+{
+	color:#FF0000;
+}
+#divmiddle01 font
+{
+	color:#CC0000;
+	font-size:22px;
+	font-weight:bold;
+}
+/*-------------------------------------------------divmiddle_02-*/
+#divmiddle02
+{
+	text-align:left;
+	position:relative;
+	width:970px;
+	height:80px;
+	float:left;
+}
+#divmiddle02 input
+{
+	background-image:url("../image/shopcar/submit.jpg");
+	height:27px;
+	width:76px;
+	border:none;
+	color:#ffffff;
+	padding-top:2px;
+}
+/*-------------------------------------------------divmiddle_03-*/
+#divmiddle03
+{
+	text-align:left;
+	position:relative;
+	width:970px;
+	height:30px;
+	float:left;
+}
+#divmiddle03 a
+{
+	color:blue;
+}
+#divmiddle03 a:hover
+{
+	color:red;
+}

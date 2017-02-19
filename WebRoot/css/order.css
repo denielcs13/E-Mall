@@ -1,0 +1,212 @@
+/*Document CSS*/
+body
+{
+	text-align:center;
+	font-size:12px;
+	color:#666666;
+}
+a
+{
+	font-size:12px;
+	color:#00000;
+}
+a:hover
+{
+	color:#FF0000;
+}
+img
+{
+	border:none;
+}
+/*----------------------------------------divshopcar-*/
+#divshopcar
+{
+	position:relative;
+	width:970px;
+	height:auto;
+	float:center;
+	z-index:0;
+}
+/*---------------------------------------------divtop-*/
+#divtop
+{
+	position:relative;
+	width:970px;
+	height:138px;
+	background-image:url(../image/shopinfo/topic.jpg);
+	text-align:center;
+	z-index:0;
+}
+
+#divtop_topic
+{
+	position:relative;
+	width:auto;
+	height:30px;
+	top:108px;
+	z-index:1;
+}
+#divtop_topic a
+{
+	color:#000000;
+	font-size:14px;
+	text-decoration:none;
+}
+#divtop_topic a:hover
+{
+	color:#CCCCCC;
+	font-weight:bold;
+}
+/*---------------------------------------------divtop_select-*/
+#divtop_select{
+	position:relative;
+	background-image:url("../image/shopcar/divtop_select.jpg");
+	width:970px;
+	height:70px;
+}
+#divtop_select_0
+{
+	width:200px;
+	height:10px;
+}
+#divtop_select_1
+{
+	width:200px;
+	height:10px;
+	display:none;
+}
+#divtop_select_2
+{
+	width:200px;
+	height:10px;
+	display:none;
+}
+#divtop_select_3
+{
+	width:200px;
+	height:10px;
+	display:none;
+}
+#divtop_select_4
+{
+	width:200px;
+	height:10px;
+	display:none;
+}
+#divtop_select_5
+{
+	width:200px;
+	height:10px;
+	display:none;
+}
+/*---------------------------------------------divbanner-*/
+#divbanner
+{
+	position:relative;
+	width:970px;
+	height:30px;
+	margin-top:10px;
+	z-index:1;
+}
+#divbanner a
+{
+	color:#666666;
+	text-decoration:none;
+	font-size:14px;
+	font-weight:bold;
+}
+#divbanner font
+{
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+}
+/*---------------------------------------------divorder-*/
+#divorder
+{
+	position:relative;
+	width:970px;
+	height:auto;
+	float:center;
+	z-index:0;
+}
+/*---------------------------------------------div1-*/
+#div1
+{
+	position:relative;
+	width:970px;
+	height:96px;
+	background-image:url(../image/order/div1.jpg);
+	z-index:1;
+}
+/*---------------------------------------------div2-*/
+#div2
+{
+	position:relative;
+	width:970px;
+	height:30px;
+	margin-top:20px;
+	text-align:left;
+	z-index:1;
+}
+#div2 font
+{
+	font-size:16px;
+	color:#666666;
+	font-weight:bold;
+}
+/*---------------------------------------------div3-*/
+#div3
+{
+	position:relative;
+	width:970px;
+	height:200px;
+	background-color:#EEEEEE;
+	z-index:1;
+}
+#div3 input
+{
+	border:1px solid #CCCCCC;
+}
+#div3 font
+{
+	font-size:12px;
+}
+/*---------------------------------------------div4-*/
+#div4
+{
+	position:relative;
+	width:970px;
+	height:150px;
+	z-index:1;
+}
+#div4 font
+{
+	font-size:12px;
+}
+#div4_01
+{
+	position:relative;
+	width:90px;
+	height:26px;
+	margin-top:10px;
+	float:left;
+	z-index:2;
+}
+#div4_save
+{
+	position:relative;
+	width:76px;
+	height:26px;
+	margin-top:70px;
+	z-index:2;
+}
+/*---------------------------------------------div5-*/
+#div5
+{
+	position:relative;
+	width:970px;
+	height:100px;
+	background-image:url(../image/order/div5.jpg);
+	z-index:1;
+}

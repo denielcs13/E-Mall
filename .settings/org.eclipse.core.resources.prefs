@@ -1,0 +1,21 @@
+#Sat May 23 23:47:32 CST 2015
+eclipse.preferences.version=1
+encoding//WebRoot/catalog_grid.jsp=UTF-8
+encoding//WebRoot/checkout.jsp=UTF-8
+encoding//WebRoot/checkout_success.jsp=UTF-8
+encoding//WebRoot/error.jsp=UTF-8
+encoding//WebRoot/index2.jsp=UTF-8
+encoding//WebRoot/login.jsp=UTF-8
+encoding//WebRoot/not_use/catalog_list.jsp=UTF-8
+encoding//WebRoot/not_use/index_1_1.jsp=UTF-8
+encoding//WebRoot/product_page.jsp=UTF-8
+encoding//WebRoot/sellor/add_goods.jsp=UTF-8
+encoding//WebRoot/sellor/index_1.jsp=UTF-8
+encoding//WebRoot/sellor/index_2.jsp=UTF-8
+encoding//WebRoot/sellor/login.jsp=UTF-8
+encoding//WebRoot/sellor/sellor_goods.jsp=UTF-8
+encoding//WebRoot/sellor/system.jsp=UTF-8
+encoding//WebRoot/shopping_cart.jsp=UTF-8
+encoding//WebRoot/user_center.jsp=UTF-8
+encoding//WebRoot/user_info.jsp=UTF-8
+encoding//src/cn/com/dao/impl/OrderDaoImpl.java=UTF-8
